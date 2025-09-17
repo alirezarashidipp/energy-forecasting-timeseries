@@ -83,3 +83,42 @@ jupyter notebook
 Author
 Ali Reza Rashidi
 Data Scientist & BI Engineer | 9+ years in ML, NLP & BI
+
+
+
+
+
+
+
+
+
+
+energy-forecasting-timeseries/
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+├── configs/
+│   └── prophet.yaml
+├── data/
+│   ├── raw/        # empty/.gitkeep
+│   └── processed/  # sample daily.csv
+├── figures/
+│   └── prophet_forecast.png
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   └── 02_prophet_baseline.ipynb
+├── outputs/        # ignored by git
+├── scripts/
+│   └── train_prophet.py
+├── src/
+│   ├── data/
+│   │   ├── load.py
+│   │   └── preprocess.py
+│   ├── models/
+│   │   └── prophet.py
+│   └── eval/
+│       ├── metrics.py
+│       └── plots.py
+└── tests/
+    └── test_metrics.py
