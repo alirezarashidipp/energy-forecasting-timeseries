@@ -57,3 +57,24 @@ It compares **statistical models (ARIMA, Prophet)** with **deep learning (LSTM)*
 ---
 
 ## 📂 Repository Structure
+energy-forecasting-timeseries/
+├── data/ # Raw & processed datasets
+├── notebooks/ # Jupyter notebooks (EDA, models, evaluation)
+├── src/ # Python modules for preprocessing & training
+├── figures/ # Plots and visualizations
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+
+## ▶️ How to Run
+```bash
+git clone https://github.com/USERNAME/energy-forecasting-timeseries.git
+cd energy-forecasting-timeseries
+pip install -r requirements.txt
+jupyter notebook
+
+
+
+Author
+Ali Reza Rashidi
+Data Scientist & BI Engineer | 9+ years in ML, NLP & BI
