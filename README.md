@@ -1,6 +1,11 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)
+![Prophet](https://img.shields.io/badge/Prophet-1.1.5-green.svg)
+
 # ⚡ Energy Consumption & Price Forecasting (Time Series)
 
-This project develops a robust framework for **time series forecasting** of European energy consumption and pricing.  
+This project develops a
+robust framework for **time series forecasting** of European energy consumption and pricing.  
 It compares **statistical models (ARIMA, Prophet)** with **deep learning (LSTM)** to evaluate forecasting accuracy and applicability in real-world energy planning.
 
 ---
