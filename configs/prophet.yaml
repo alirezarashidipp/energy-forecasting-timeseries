@@ -1,0 +1,16 @@
+## Prophet configuration file
+
+# Growth model: either 'linear' or 'logistic'
+growth: linear
+
+# Strength of the automatic changepoint prior.  Higher values allow the trend to change more quickly.
+changepoint_prior_scale: 0.05
+
+# Mode for seasonality: 'additive' or 'multiplicative'.  For energy demand and price we assume additive effects.
+seasonality_mode: additive
+
+# Controls flexibility of the seasonality components (higher values fit the seasonal patterns more closely).
+seasonality_prior_scale: 10.0
+
+# Whether to include holiday effects (requires holiday data).  Disabled by default.
+holidays: false
